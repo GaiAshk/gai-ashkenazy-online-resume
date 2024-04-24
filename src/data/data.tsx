@@ -86,7 +86,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: `#${SectionId.Resume}`,
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -104,9 +104,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `👋 Hey there! I'm Gai Ashkenazy, a passionate software developer with a knack for crafting elegant code 
+  and building impactful solutions. When I'm not immersed in lines of code, you can usually find me on the soccer 
+  field, chasing after the ball and enjoying the beautiful game.
+  
+  My journey in software development began with a fascination for technology and a drive to create meaningful 
+  applications that solve real-world problems. Over the years, I've honed my skills in various programming languages 
+  and technologies, from frontend frameworks to backend systems with C++, Go, Python and beyond..`,
   aboutItems: [
     {label: 'Location', text: 'Tel Aviv, Israel', Icon: MapIcon},
     {label: 'Age', text: '31', Icon: CalendarIcon},
@@ -181,7 +185,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React Native',
-        level: 9,
+        level: 5,
       },
       {
         name: 'Flutter',
@@ -202,67 +206,67 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/GaiAshk',
     image: porfolioImage11,
   },
 ];
@@ -272,39 +276,48 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2019',
+    location: 'Washington University in St. Louis',
+    title: 'Bachelor\'s degree, Computer Science',
+    content: <p>Graduated at the top of my class, I was very active in the Robotics club, Soccer team, Triathlon Team.
+    Worked closely with the dean of the computer science department on Complexity and Computability analysis of
+      Quantum Computing</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'March 2017',
+    location: 'Reichman University',
+    title: 'Bachelor\'s degree, Computer Science',
+    content: <p>Graduated at the top of my class, took active role in the Coding club, Hackathons, Finance club,
+      and the Universities soccer team. Received Deans list award in every single year.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2022 - Present',
+    location: 'Via Transportation',
+    title: 'Senior Backend Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Dynamic and innovative software developer with a proven track record of delivering high-quality solutions
+        in fast-paced environments. Proficient in full-stack development, with expertise in front-end and back-end
+        technologies. Adept at leading teams and driving project success through collaboration and strategic
+        problem-solving. Passionate about embracing emerging technologies and continuously enhancing skills to stay
+        at the forefront of the industry.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'August 2020 - May 2022',
+    location: 'Vayyer 4D imaging',
+    title: 'Embedded Software Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Resourceful and forward-thinking embedded developer with a demonstrated history of designing and implementing
+        innovative solutions for embedded systems. Proficient in low-level programming languages and hardware
+        interfacing, with a focus on optimizing performance and efficiency. Skilled in leading cross-functional teams
+        and driving projects from concept to completion in the embedded domain. Committed to staying updated with the
+        latest technologies and methodologies to deliver cutting-edge solutions.
       </p>
     ),
   },
@@ -317,18 +330,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Cristiano Ronaldo',
+      text: 'Gai is an amazing developer, highly recommended!.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Wayne Rooney',
+      text: 'I have been working with Gai Ashkenazy for a while now, He is super friendly and super motivated. ' +
+        'Where ever he is, I would bet he is a top performer.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+      name: 'Bruno Fernandes',
+      text: 'Gai Ashkenazy is the best!! as my friend Cristiano said, highly recommended!!!.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
@@ -355,7 +369,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Instagram,
       text: '@guyashk',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/guyashk/',
     },
     {
       type: ContactType.Github,
