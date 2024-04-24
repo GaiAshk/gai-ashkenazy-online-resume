@@ -74,13 +74,13 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Tel Aviv based <strong className="text-stone-100">Backend Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Via Transportation</strong> helping build a modern, huge scale,
-        intelligent and data driven product.
+        at <strong className="text-stone-100">Via Transportation</strong> helping them to build a modern, huge scale,
+        intelligent and data driven smart transit tech.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">soccer</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Tel Aviv beach</strong>.
+        playing my <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Tel Aviv beaches</strong>.
       </p>
     </>
   ),
@@ -108,12 +108,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Tel Aviv, Israel', Icon: MapIcon},
+    {label: 'Age', text: '31', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Finland / Israel', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Soccer, Guitar', Icon: SparklesIcon},
+    {label: 'Study', text: 'Washington University in Saint Louis', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Via Transportation, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,8 +129,12 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Finish',
+        level: 9,
+      },
+      {
+        name: 'Hebrew',
+        level: 10,
       },
       {
         name: 'Spanish',
@@ -159,16 +163,16 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Python',
+        level: 10,
+      },
+      {
+        name: 'C++',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
         name: 'Golang',
-        level: 4,
+        level: 5,
       },
     ],
   },
@@ -336,27 +340,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Here is where you can reach out and say hello.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'reachout@gaiashkenazy.me',
+      href: 'mailto:reachout@gaiashkenazy.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Tel Aviv, Israel',
+      href: 'https://maps.app.goo.gl/cop1uUUrQUgDsR7m8',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@guyashk',
       href: 'https://www.instagram.com/tbakerx/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'GaiAshk',
+      href: 'https://github.com/GaiAshk',
     },
   ],
 };
@@ -365,9 +369,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/GaiAshk'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/14611692/gai-ashkenazy'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/gaiashkenazy/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/guyashk/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/GaiAshkenazy'},
 ];
